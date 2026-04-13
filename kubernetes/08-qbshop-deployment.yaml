@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: qbs-app
-          image: kanika2905/qbshop-app:4
+          image: kanika2905/qbshop-app:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
